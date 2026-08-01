@@ -1,8 +1,32 @@
 aid: proteinea
 name: Proteinea
-description: Proteinea is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Proteinea is an AI-driven biotechnology company engineering next-generation
+  therapeutic antibodies. It integrates protein language models, computational
+  biology and biological automation to design, optimize and validate biologics
+  faster and more safely. Proteinea is the creator of Ankh, an optimized
+  general-purpose protein language model, and operates a Protein Engineering
+  Platform (PEP) for multi-parameter optimization and RaGene for AI-driven
+  codon/gene optimization, with a focus on rational Fc-domain engineering for
+  context-specific immune tuning, enhanced half-life and targeted
+  biodistribution. Headquartered in Cairo, Egypt with offices in Cambridge/
+  Boston, MA and a presence at KAUST, Saudi Arabia. Backed by 500 Global,
+  IndieBio/SOSV, Shorooq Partners, Sawari Ventures and others. The company
+  exposes research software (open-source models and benchmarks) rather than a
+  public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/proteinea/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/proteinea.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Artificial Intelligence
+- Machine Learning
+- Protein Engineering
+- Drug Discovery
+- Antibodies
+- Computational Biology
+- Open Source
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/proteinea-domain-security.yml
 - type: Website
   url: https://proteinea.com
+- type: GitHubOrganization
+  url: https://github.com/proteinea
+- type: PrivacyPolicy
+  url: https://www.proteinea.com/privacy-policy
+- type: Support
+  url: https://www.proteinea.com/contact-us
+- type: Packages
+  url: packages/proteinea-packages.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

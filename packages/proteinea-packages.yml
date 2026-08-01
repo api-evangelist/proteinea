@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/ankh/
+notes: >-
+  Proteinea publishes no API-client SDKs (it exposes no public API). Its one
+  first-party open-source library is Ankh, the optimized protein language model
+  it developed (in collaboration with the Technical University of Munich and
+  Columbia University). Ankh is a research/model library, not a client SDK for a
+  Proteinea API. protbench (github.com/proteinea/protbench) is a related
+  first-party benchmarking library but is not published to a package registry.
+packages:
+  - language: python
+    registry: pypi
+    name: ankh
+    url: https://pypi.org/project/ankh/
+    repository: https://github.com/agemagician/Ankh
+    install: pip install ankh
+    official: true
+    kind: model-library
+    license: CC-BY-NC-SA-4.0
+    description: >-
+      Ankh: optimized general-purpose protein language model (Ankh Base/Large,
+      Ankh3 Large/XL) for protein structure, function, localization and
+      generation tasks.
