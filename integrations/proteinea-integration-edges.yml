@@ -26,6 +26,32 @@ edges:
     year: '2020'
   detected_by: sweep-accelerator-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/proteinea
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - proteinea/secondary_structure_prediction
+  - proteinea/solubility
+  - proteinea/ppb_affinity
+  - proteinea/fluorescence
+  - proteinea/remote_homology
+  - proteinea/deeploc
+  - proteinea/contact_prediction
+  - proteinea/nearest_neighbor_search
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub datasets
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
 generated: '2026-10-21'
 method: searched
 source:
@@ -40,3 +66,4 @@ checked:
 - https://www.antler.co/portfolio
 - https://www.techstars.com/portfolio
 - https://www.ycombinator.com/companies
+- hugging-face/integrations/hugging-face-integration-edges.yml
